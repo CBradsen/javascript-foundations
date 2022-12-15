@@ -28,7 +28,7 @@ describe('Dragon', function() {
     assert.equal(dragon.rider, 'Eragon');
   });
 
-  it.skip('should greet their rider', function() {
+  it('should greet their rider', function() {
     var dragon1 = new Dragon('Gray', 'Marley');
     var dragon2 = new Dragon('Sky', 'Susie');
 
@@ -39,13 +39,13 @@ describe('Dragon', function() {
     assert.equal(greeting2, 'Hi, Susie!');
   });
 
-  it.skip('should start off being hungry', function() {
+  it('should start off being hungry', function() {
     var dragon = new Dragon('Josh');
 
     assert.equal(dragon.hungry, true);
   });
 
-  it.skip('should be full after eating 3 times', function() {
+  it('should be full after eating 3 times', function() {
     var dragon = new Dragon('Lady Vox');
 
     dragon.eat();
